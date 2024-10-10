@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List and Event Compiler</Canvas></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M222-200 80-342l56-56 85 85 170-170 56 57-225 226Zm0-320L80-662l56-56 85 85 170-170 56 57-225 226Zm298 240v-80h360v80H520Zm0-320v-80h360v80H520Z"/></svg>To Do List </h2>
+            <div class="row">
+                <input type="text" id="input_box" placeholder="Add Tasks(Date/Time)">
+                <button onclick="AddTask()">Add</button>                
+            </div>
+            <ul id="task_list">
+                <!--<li class="checked">Task1</li>
+                <li>Task2</li>
+                <li>Task3</li>-->
+            </ul>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
